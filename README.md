@@ -20,7 +20,7 @@ The api consumer either sends the version they are using in the header of the re
 
 See the following picture:
 
-<img src="https://github.com/orangecoding/versioning/blob/master/doc/doc.jpeg" width="50%">
+<img src="https://github.com/orangecoding/versioning/blob/main/doc/doc.jpeg" width="50%">
 
 The example code in this repository explains the pattern by providing 2 api endpoints. Based on the given api version, the necessary transformations are being applied.
 
