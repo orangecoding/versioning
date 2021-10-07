@@ -1,0 +1,25 @@
+{
+  "name": "versioning",
+  "version": "1.0.0",
+  "description": "An example how to do RESTful api versioning",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "changelog": "node changelogGenerator.js",
+    "lint": "eslint ./lib/**/*.js ./index.js ",
+    "pretty": "prettier --write lib/**/*.js index.js --single-quote --print-width 120"
+  },
+  "keywords": [
+    "versioning"
+  ],
+  "author": "Christian Kellner",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "7.2.0"
+  },
+  "devDependencies": {
+    "eslint": "7.32.0",
+    "eslint-config-prettier": "8.3.0",
+    "prettier": "2.4.1"
+  }
+}
