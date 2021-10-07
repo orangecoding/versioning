@@ -1,0 +1,6 @@
+changelog.txt
+node_modules
+*.iml
+*.db
+.idea
+.DS_STORE
