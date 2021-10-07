@@ -1,4 +1,4 @@
-##Api Versioning
+## Api Versioning
 
 Just recently I came across the question of how to do proper API versioning for RESTful apis.  
 There are many ways to do this. In the early days, it was common to version api endpoints with a prefix.
@@ -12,7 +12,7 @@ version of the api to be able to use new features.
 
 The result is a lot of different endpoints in your code (that mostly do the same) as well as the necessity to either always release new clients or make sure, customers are using the latest v(x).
 
-###A potential solution
+### A potential solution
 
 There are various ways how to solve this. One of them is to use what I call the "transformer pattern". Basically every api endpoint has its own transformer. All calls first run through a transformer before the result is sent to the customer. (You would have different transformer for incoming data (POST/PUT) or outgoing data (responses), this example only takes care of transforming responses to avoid any unnecessary complexity)
 
